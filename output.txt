@@ -1,0 +1,24 @@
+######## Output of http_call.py ##########
+pratikb@hackbook:~/code/cmpe273-lab1$ python3 http_call.py "https://webhook.site/3e70a89a-af69-48d6-955a-eeb88d169442"
+
+
+HTTP request to URL: https://webhook.site/3e70a89a-af69-48d6-955a-eeb88d169442
+'date' : 'Mon, 03 Sep 2018 04:53:29 GMT'
+
+
+HTTP request to URL: https://webhook.site/3e70a89a-af69-48d6-955a-eeb88d169442
+'date' : 'Mon, 03 Sep 2018 04:53:30 GMT'
+
+
+HTTP request to URL: https://webhook.site/3e70a89a-af69-48d6-955a-eeb88d169442
+'date' : 'Mon, 03 Sep 2018 04:53:32 GMT'
+Total time: 8.865876913070679
+
+
+######## Output of http_async_call.py ##########
+pratikb@hackbook:~/code/cmpe273-lab1$ python3 http_async_call.py "https://webhook.site/3e70a89a-af69-48d6-955a-eeb88d169442"
+Date: Mon, 03 Sep 2018 04:53:43 GMT
+Date: Mon, 03 Sep 2018 04:53:44 GMT
+Date: Mon, 03 Sep 2018 04:53:45 GMT
+Total time: 2.202782154083252
+
